@@ -1,6 +1,10 @@
 # ocp-pulumi
 Pulimi's Infrastructure as Code.
 
+
+    <img src="https://raw.githubusercontent.com/dwojciec/ocp-pulumi/master/images/ocp-pulumi-VPN.png">
+
+
 # Create a VPN connection to Azure VNET
 
 This example deploys VPN connection to Azure VNET and create a VM to use it as Local Container Registry. 
