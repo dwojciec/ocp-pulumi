@@ -56,7 +56,7 @@ and update the file with all this values :
 
 1. Run `pulumi up` to preview and deploy the changes:
 
-    ```
+```
     $ pulumi update
     Previewing update (dev):
 
@@ -85,10 +85,9 @@ Resources:
     1 unchanged
 
 Do you want to perform this update?
-  yes
-> no
-  details
 ```
+
+
 
 1. Destroy the stack:
 
@@ -96,6 +95,8 @@ Do you want to perform this update?
     ▶ pulumi destroy --yes
     Previewing destroy (dev):
     ```
+
+
 
 * **[Examples](https://github.com/pulumi/examples)**: browse a number of useful examples across many languages,
   clouds, and scenarios including containers, serverless, and infrastructure.
