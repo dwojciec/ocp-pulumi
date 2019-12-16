@@ -1,0 +1,4 @@
+name: ocp-pulumi
+runtime: python
+description: Azure Python Pulumi program to deploy infrastructure for Openshift 4
+  UPI
