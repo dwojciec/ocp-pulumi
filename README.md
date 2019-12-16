@@ -34,8 +34,9 @@ Create a VM to create a Local Container Registry.
     ```
 
 and update the file with all this values :
-    
-    ```
+
+
+```bash
     config:
   azure:environment: public
   azure:location: centralus
@@ -50,7 +51,7 @@ and update the file with all this values :
   ocp-pulumi:vnet_address_spaces: 10.0.0.0/16
   repository:adminPassword: Password123
   repository:adminUser: dwojciec
-  ```
+```
 
 1. Run `pulumi up` to preview and deploy the changes:
 
