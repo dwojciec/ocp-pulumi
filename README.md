@@ -102,6 +102,7 @@ Do you want to perform this update?
 
 * **[Azure VPN](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)**: Configure a Point-to-Site VPN connection to a VNet using native Azure certificate authentication: Azure portal,
 
+** Pulumi examples 
 * **[Examples](https://github.com/pulumi/examples)**: browse a number of useful examples across many languages,
   clouds, and scenarios including containers, serverless, and infrastructure.
 
