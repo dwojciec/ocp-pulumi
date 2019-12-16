@@ -1,8 +1,9 @@
 # ocp-pulumi
 Pulimi's Infrastructure as Code.
 
-Create a VPN connection to Azure VNET
-Create a VM to create a Local Container Registry. 
+# Create a VPN connection to Azure VNET
+
+This example deploys VPN connection to Azure VNET and create a VM to use it as Local Container Registry. 
 
 ## Prerequisites
 
