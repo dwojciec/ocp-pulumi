@@ -35,7 +35,7 @@ Create a VM to create a Local Container Registry.
 
 and update the file with all this values :
     
-    ```bash 
+    ```
     config:
   azure:environment: public
   azure:location: centralus
@@ -57,10 +57,6 @@ and update the file with all this values :
     ```
     $ pulumi update
     Previewing update (dev):
-
-  (venv) dwojciec-OSX:ocp-pulumi dwojciec$ pulumi update
-Please choose a stack, or create a new one: dev
-Previewing update (dev):
 
      Type                                    Name            Plan
      pulumi:pulumi:Stack                     ocp-pulumi-dev
@@ -90,16 +86,13 @@ Do you want to perform this update?
   yes
 > no
   details
-  
-   
-    ```
+```
 
 1. Destroy the stack:
 
     ```
     ▶ pulumi destroy --yes
     Previewing destroy (dev):
-
     ```
 
 * **[Examples](https://github.com/pulumi/examples)**: browse a number of useful examples across many languages,
