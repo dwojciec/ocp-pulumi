@@ -2,7 +2,7 @@
 Pulimi's Infrastructure as Code.
 
 
-<img width="400" src="https://raw.githubusercontent.com/dwojciec/ocp-pulumi/master/images/ocp-pulumi-VPN.png">
+<img width="600" src="https://raw.githubusercontent.com/dwojciec/ocp-pulumi/master/images/ocp-pulumi-VPN.png">
 
 
 # Create a VPN connection to Azure VNET
