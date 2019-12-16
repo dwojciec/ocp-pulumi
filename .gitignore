@@ -13,6 +13,7 @@ lib/
 yarn.lock
 package-lock.json
 Pulumi.*.yaml
+Pulumi.*.yaml.back
 .idea/
 .ionide/
 *.iml
