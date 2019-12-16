@@ -1,6 +1,10 @@
 # ocp-pulumi
 Pulimi's Infrastructure as Code.
-E## Prerequisites
+
+Create a VPN connection to Azure VNET
+Create a VM to create a Local Container Registry. 
+
+## Prerequisites
 
 1. [Install Pulumi](https://www.pulumi.com/docs/get-started/install/)
 1. [Configure Pulumi for Azure](https://www.pulumi.com/docs/intro/cloud-providers/azure/setup/)
@@ -10,7 +14,7 @@ E## Prerequisites
 
 1. Set up a virtual Python environment and install dependencies
 
-    ```
+    ```bash
     $ virtualenv -p python3 venv
     $ source venv/bin/activate
     $ pip install -r requirements.txt
@@ -18,16 +22,20 @@ E## Prerequisites
 
 1. Create a new stack:
 
-    ```
+    ```bash
     $ git clone https://github.com/dwojciec/ocp-pulumi.git && cd ocp-pulumi
     $ pulumi stack init dev
     ```
 
 1. Set the Azure environment:
 
-    ```
+    ```bash
     $ vi Pulumi.dev.yaml 
-    and update the file with all this values :
+    ```
+
+and update the file with all this values :
+    
+    ```bash 
     config:
   azure:environment: public
   azure:location: centralus
@@ -42,8 +50,7 @@ E## Prerequisites
   ocp-pulumi:vnet_address_spaces: 10.0.0.0/16
   repository:adminPassword: Password123
   repository:adminUser: dwojciec
-
-    ```
+  ```
 
 1. Run `pulumi up` to preview and deploy the changes:
 
